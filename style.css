@@ -1,5 +1,33 @@
-.grön{
-    color:green
+body {
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+.fråga2{
+    border-style: solid;
+   border: bottom 20px;
+    margin-bottom: 20px;
+}
+.färg {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.fråga3{
+    border-style: solid;
     
-    display: inLine-block;
+}
+
+.fråga4{
+    border-style: solid;
+    select {
+        width: 50%;
+        height:100px;
+        select text {
+            font-size: 16px;
+        }
+    }
 }
