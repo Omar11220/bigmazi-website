@@ -15,24 +15,51 @@
   <label for="lname">Efternamn:</label><br>
   <input type="text" id="lname" name="lname">
 
+  <div class="fråga2">
   <h1>Fråga 2</h1>
   <h2><fieldset>Favorit färg:</fieldset></h2>
   <label class="grön">
     Grön
     <input type="radio" name="farg" value="gron">
 </label>
-
+  </div>
 <br>
 
-<label>
+<label class="färg">
+    Röd
+    <input type="radio" name="farg" value="rod">
+</label>
+<label class="färg">
     Svart
     <input type="radio" name="farg" value="svart">
 </label>
-<label>
+<label class="färg">
   Blå
   <input type="radio" name="farg" value="blå">
 </label>
 
-
+<div class ="fråga3">
+<h1>Fråga 3</h1>
+<h2><fieldset>Favorit djur:</fieldset></h2>
+<input type="checkbox" id="hund" name="djur" value="hund">
+<label for="hund">Hund</label><br>
+<input type="checkbox" id="katt" name="djur" value="katt">
+<label for="katt">Katt</label><br>
+<input type="checkbox" id="fisk" name="djur" value="fisk">
+<label for="fisk">Fisk</label><br>
+<label for="kanin">Kanin</label><br>
+<input type="checkbox" id="kanin" name="djur" value="kanin"><br>
+</div>
+<div class="fråga4">
+<h1>Fråga 4</h1>
+<h2><fieldset>Favorit mat:</fieldset></h2>
+<select name="mat" id="mat">
+  <option value="pizza">Pizza</option>
+  <option value="hamburgare">Hamburgare</option>
+  <option value="sushi">Sushi</option>
+  <option value="pasta">Pasta</option>
+  <option value="qabuli palow">Qabuli Palow</option>
+</select>
+</div>
 </body>
 </html>
