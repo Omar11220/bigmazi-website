@@ -1,13 +1,22 @@
 body {
     text-align: center;
     font-size: 16px;
+    border-style: solid;
+    border-width: 5px;
 }
 
+.title1 {
+    border-style:solid;
+    border-width: 5px;
+}
 
+.fråga1{
+    
+    margin-bottom: 20px;
 
+}
 .fråga2{
-    border-style: solid;
-   border: bottom 20px;
+   
     margin-bottom: 20px;
 }
 .färg {
@@ -17,12 +26,12 @@ body {
 }
 
 .fråga3{
-    border-style: solid;
+   
     
 }
 
 .fråga4{
-    border-style: solid;
+   
     select {
         width: 50%;
         height:100px;
