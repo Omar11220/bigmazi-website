@@ -6,35 +6,35 @@ body {
 }
 
 .title1 {
-    border-style:solid;
+    border-style: solid;
     border-width: 5px;
 }
 
-.fråga1{
-    
+.fråga1 {
+
     margin-bottom: 20px;
 
 }
-.fråga2{
-   
+
+.fråga2 {
+
     margin-bottom: 20px;
 }
+
 .färg {
     display: inline-flex;
     align-items: center;
     margin-right: 10px;
 }
 
-.fråga3{
-   
-    
-}
+.fråga3 {}
 
-.fråga4{
-   
+.fråga4 {
+
     select {
         width: 50%;
-        height:100px;
+        height: 100px;
+
         select text {
             font-size: 16px;
         }
@@ -43,7 +43,7 @@ body {
 
 
 .image-container {
-    
+
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -52,17 +52,38 @@ body {
 
 }
 
-.image-container > img {
+.image-container>img {
     margin: 100px;
+    gap: 30px;
+
 }
 
 .image-one {
     width: 300px;
     height: 300px;
 
+
 }
 
 .image-two {
     width: 300px;
     height: 300px;
+
+}
+
+.karaktär1 {
+    width: 300px;
+    height: 300px;
+    flex-direction: row
+}
+
+.karaktär2 {
+    width: 300px;
+    height: 300px;
+    flex-direction: row
+}
+.karaktär3 {
+    width: 300px;
+    height: 300px;
+    flex-direction: row
 }

@@ -1,76 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
 
-    <title>Bigmazis quiz challange</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Bigmazis quiz challange</title>
 
 </head>
-<body>
-   </div class="title1"> <h1>Bigmazi quiz</h1>
-</div>
-    <div class="fråga1">
-    <h1>Fråga 1</h1>
-    <h2><Fieldset>Vad heter jag?</Fieldset></h2>
-    <label for="fname">Förnamn:</label><br>
-  <input type="text" id="fname" name="fname"><br>
-  <label for="lname">Efternamn:</label><br>
-  <input type="text" id="lname" name="lname">
-    </div>
-  <div class="fråga2">
-  <h1>Fråga 2</h1>
-  <h2><fieldset>Favorit färg:</fieldset></h2>
-  <label class="grön">
-    Grön
-    <input type="radio" name="farg" value="gron">
-</label>
-  </div>
-<br>
 
-<label class="färg">
+<body>
+  </div class="title1">
+  <h1>Bigmazi quiz</h1>
+  </div>
+  <div class="fråga1">
+    <h1>Fråga 1</h1>
+    <h2>
+      <Fieldset>Vad heter jag?</Fieldset>
+    </h2>
+    <label for="fname">Förnamn:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Efternamn:</label><br>
+    <input type="text" id="lname" name="lname">
+  </div>
+  <div class="fråga2">
+    <h1>Fråga 2</h1>
+    <h2>
+      <fieldset>Favorit färg:</fieldset>
+    </h2>
+    <label class="grön">
+      Grön
+      <input type="radio" name="farg" value="gron">
+    </label>
+  </div>
+  <br>
+
+  <label class="färg">
     Röd
     <input type="radio" name="farg" value="rod">
-</label>
-<label class="färg">
+  </label>
+  <label class="färg">
     Svart
     <input type="radio" name="farg" value="svart">
-</label>
-<label class="färg">
-  Blå
-  <input type="radio" name="farg" value="blå">
-</label>
+  </label>
+  <label class="färg">
+    Blå
+    <input type="radio" name="farg" value="blå">
+  </label>
 
-<div class ="fråga3">
-<h1>Fråga 3</h1>
-<h2><fieldset>Favorit djur:</fieldset></h2>
-<input type="checkbox" id="hund" name="djur" value="hund">
-<label for="hund">Hund</label><br>
-<input type="checkbox" id="katt" name="djur" value="katt">
-<label for="katt">Katt</label><br>
-<input type="checkbox" id="fisk" name="djur" value="fisk">
-<label for="fisk">Fisk</label><br>
-<label for="kanin">Kanin</label><br>
-<input type="checkbox" id="kanin" name="djur" value="kanin"><br>
-</div>
-<div class="fråga4">
-<h1>Fråga 4</h1>
-<h2><fieldset>Favorit mat:</fieldset></h2>
-<select name="mat" id="mat">
-  <option value="pizza">Pizza</option>
-  <option value="hamburgare">Hamburgare</option>
-  <option value="sushi">Sushi</option>
-  <option value="pasta">Pasta</option>
-  <option value="qabuli palow">Qabuli Palow</option>
-</select>
-</div>
-<h1>Fråga 5</h1>
-<h2><fieldset>Favorit karaktär:</fieldset></h2>
-<div class="image-container">
-<img src = "spiderman.webp" alt="First image" class="image-one">
-<img src = "ironman.webp" alt="Second image" class="image-two">
+  <div class="fråga3">
+    <h1>Fråga 3</h1>
+    <h2>
+      <fieldset>Favorit djur:</fieldset>
+    </h2>
+    <input type="checkbox" id="hund" name="djur" value="hund">
+    <label for="hund">Hund</label><br>
+    <input type="checkbox" id="katt" name="djur" value="katt">
+    <label for="katt">Katt</label><br>
+    <input type="checkbox" id="fisk" name="djur" value="fisk">
+    <label for="fisk">Fisk</label><br>
+    <label for="kanin">Kanin</label><br>
+    <input type="checkbox" id="kanin" name="djur" value="kanin"><br>
+  </div>
+  <div class="fråga4">
+    <h1>Fråga 4</h1>
+    <h2>
+      <fieldset>Favorit mat:</fieldset>
+    </h2>
+    <select name="mat" id="mat">
+      <option value="pizza">Pizza</option>
+      <option value="hamburgare">Hamburgare</option>
+      <option value="sushi">Sushi</option>
+      <option value="pasta">Pasta</option>
+      <option value="qabuli palow">Qabuli Palow</option>
+    </select>
+  </div>
+  <h1>Fråga 5</h1>
+  <h2>
+    <fieldset>Favorit karaktär:</fieldset>
+  </h2>
+  
+  <div class="image-container">
+    <div class="karaktär1">
+      <img src="spiderman.webp" alt="First image" class="image-one">
+      <label class="karaktär1">
+        Spiderman
+        <input type="radio" name="karaktär" value="spiderman">
+      </label>
+    </div>
+   
+    <div class="karaktär2">
+      <img src="ironman.webp" alt="Second image" class="image-two">
+      <label class="karaktär2">
+        Ironman
+        <input type="radio" name="karaktär" value="ironman">
+      </label>
+    </div>
 
-</div>
+  <div class="karaktär3">
+    <img src="batman.webp" alt="Third image " class="image-three">
+    <label class="karaktär3">
+      Batman
+      <input type="radio" name="karaktär" value="batman">
+    </label>
+   
+
+
+  </div>
+  
 </body>
+
 </html>
