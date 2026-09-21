@@ -3,20 +3,42 @@ body {
     font-size: 16px;
     border-style: solid;
     border-width: 5px;
+    background-color: rgb(197, 167, 211);
 }
 
 .title1 {
+    h1 {
+        color: rgb(191, 96, 255);
+    }
+
     border-style: solid;
     border-width: 5px;
 }
 
 .fråga1 {
 
-    margin-bottom: 20px;
+    
+    h1 {
+        color: rgb(170, 19, 19);
 
+    }
+
+    h2 {
+        color: rgb(34, 17, 184);
+    }
+
+    margin-bottom: 20px;
+color: rgb(224, 14, 144);
 }
 
 .fråga2 {
+h1 {
+    color: rgb(170, 19, 19);
+}
+h2 {
+    color: rgb(34, 17, 184);
+}
+color: rgb(224, 14, 144);
 
     margin-bottom: 20px;
 }
@@ -27,9 +49,25 @@ body {
     margin-right: 10px;
 }
 
-.fråga3 {}
+.fråga3 {
+    h1 {
+        color: rgb(170, 19, 19);
+    }
+    h2 {
+        color: rgb(34, 17, 184);
+    }
+    color: rgb(224, 14, 144);
+}
 
 .fråga4 {
+    h1 {
+        color: rgb(170, 19, 19);
+    }
+    h2 {
+        color: rgb(34, 17, 184);
+    }
+    color: rgb(224, 14, 144);
+
 
     select {
         width: 50%;
@@ -40,7 +78,15 @@ body {
         }
     }
 }
-
+.fråga5 {
+    h1 {
+        color: rgb(170, 19, 19);
+    }
+    h2 {
+        color: rgb(34, 17, 184);
+    }
+    color: rgb(224, 14, 144);
+}
 
 .image-container {
 
@@ -49,14 +95,11 @@ body {
     width: 100%;
     height: 150%;
     margin: 100px;
+    color: rgb(224, 14, 144);
 
 }
 
-.image-container>img {
-    margin: 100px;
-    gap: 30px;
 
-}
 
 .image-one {
     width: 300px;
@@ -66,6 +109,17 @@ body {
 }
 
 .image-two {
+    width: 300px;
+    height: 300px;
+
+}
+
+.image-three {
+    width: 300px;
+    height: 300px;
+}
+
+.image-four {
     width: 300px;
     height: 300px;
 
@@ -82,7 +136,14 @@ body {
     height: 300px;
     flex-direction: row
 }
+
 .karaktär3 {
+    width: 300px;
+    height: 300px;
+    flex-direction: row
+}
+
+.karaktär4 {
     width: 300px;
     height: 300px;
     flex-direction: row
